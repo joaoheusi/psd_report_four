@@ -5,7 +5,6 @@ USE ieee.std_logic_unsigned.ALL;
 ENTITY op_a IS
   PORT (
     i_A : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    i_B : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
     o_S : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
   );
 END ENTITY op_a;
