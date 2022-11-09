@@ -4,10 +4,10 @@ USE ieee.std_logic_unsigned.ALL;
 
 ENTITY reg IS
   PORT (
-    i_ID : IN STD_LOGIC;
-    i_CLK : IN STD_LOGIC;
-    i_DATA : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    o_DATA : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+    i_ID : IN STD_LOGIC := '0';
+    i_CLK : IN STD_LOGIC := '0';
+    i_DATA : IN STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
+    o_DATA : OUT STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000"
   );
 END ENTITY reg;
 
